@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            img src="<img/cenario-passo0.png" alt="">
+            <p>Hoje cedo encontrei umas coisas antigas do meu avô. No meio delas havia um caderno de pistas, para a descoberta de um grande tesouro. Foi então que me lembrei das histórias de tesouros que ele me contava e por isso decidi seguir as pistas.</p>
+            <button class="btn-proximo" data-proximo="1">Cristo Redentor</button>
+            <button class="btn-proximo" data-proximo="2">Catedral Metropolitana</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Sua jornada começa no Rio de Janeiro, que te leva ao Cristo Redentor, para achar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Subir até o Cristo e procurar a pista</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você vai até Brasília, na Catedral Metropolitana e em seu caderno as pistas lhe mandam escolher outros dois monumentos históricos.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar em Paraty</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o memorial JK</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Subindo até o cristo, você encontra um cartão com a mesma letra do caderno, que indica que a próxima pista está na Torre Eiffel.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Torre Eiffel</button>
+        </div>
+
+        <div class="passo" id="passo-4"> 
+            <img src="img/cenario-passo4-casa" alt="imagem voltando para casa e desistindo da aventura">  
+            <p>Você se depara com grandes dificuldades e volta para casa. Mas sempre imagina o que seu avô queria lhe dizer.</p>
+        </div>
+
+        <div class="passo" id="passo-5"> 
+             <p>Em Paraty você encontra um mapa com o desenho da Torre Eiffel.</p>   
+             <button class="btn-proximo" data-proximo="7">Viajar para a Torre Eiffel</button>
+        </div>
+
+        <div class="passo" id="passo-6">  
+             <p>No Memorial jK as portas estão trancadas e você não consegue entrar.</p>   
+             <button class="btn-proximo" data-proximo="8">Voltar para Paraty</button>
+        </div>
+
+        <div class="passo" id="passo-7">  
+             <p>Na Torre Eiffel as pistas ficam mais interessantes e você se depara com dois caminhos.</p>    
+             <button class="btn-proximo" data-proximo="9">Seguir caminho á esquerda</button>
+             <button class="btn-proximo" data-proximo="10">Seguir caminho á direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">   
+             <p>Voltanto a Paraty, finalmente você encontra o mapa. Agora vá para a Torre Eiffel.</p>
+             <button class="btn-proximo" data-proximo="7">Seguir para a Torre Eiffel.</button>
+        </div>
+
+        <div class="passo" id="passo-9"> 
+             <p>O caminho a esquerda leva você aos fundos da torre, onde você encontra uma sala cheia de muitos tesouros.</p> 
+             <button class="btn-proximo" data-proximo="11">Explorar os tesouros</button> 
+        </div>
+
+        <div class="passo" id="passo-10">  
+             <p>O caminho a direita te leva ao topo da Torre e lá não encontra nenhuma pista.</p>
+             <button class="btn-proximo" data-proximo="12">Tentar o caminho a esquerda</button>
+        </div>
+
+        <div class="passo" id="passo-11"> 
+            <img src="img/cenario-passo11-tesouro-perdido" alt="Encontrando um grandioso tesouro">
+             <p>Em meio aos tesouros você encontra uma carta de seu avô. Que lhe diz que o maior tesouro que você poderia ter, foi conhecer tantos lugares bonitos.</p>
+        </div>
+
+        <div class="passo" id="passo-12">  
+             <p>Retomando a esquerda você encontra uma sala cheia de tesouros.</p>
+             <button class="btn-proximo" data-proximo="11">Explorar os tesouros</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
